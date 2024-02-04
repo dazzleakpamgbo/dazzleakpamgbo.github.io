@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="icon" type="image/x-icon" href="ico.ico">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
 	<body class="is-preload">
 
@@ -19,10 +20,15 @@
 			<div id="page-wrapper">
 				<!-- Wrapper -->
 					<div id="wrapper">
-						<img src="daz4.JPG" alt="Dazzle" style="width: 100%; margin: 0 auto; display: block;">
+						<section class="panel spotlight" data-aos="fade-up">
+							<div>
+								<img src="headerimg.png" alt="DazzleHeader" style="width: 100%; margin: 0 auto; display: block; z-index: 1; position: static; height: -webkit-fill-available;">
+							</div>
+						</section>
+						<img src="daz4.JPG" alt="Dazzle" style="width: 100%; margin: 0 auto; display: block;" data-aos="fade-up">
 						<!-- Panel (Banner) -->
 							<section class="panel banner right">
-								<div class="content color0 span-3-75">
+								<div class="content color0 span-3-75" data-aos="fade-up">
 									<h1 class="major">Hello, my name<br />
 									is Dazzle!</h1>
 									<p>Hey y’all, I'm <strong>Dazzle</strong>, a Nigerian model and entrepreneur. Join me to navigate this life thing, make memories and create opportunities for myself.</p>
@@ -36,7 +42,7 @@
 							</section>
 
 						<!-- Panel -->
-						<section class="panel spotlight">
+						<section class="panel spotlight" data-aos="fade-up">
 							<div>
 								<img src="daz1.JPG" alt="Dazzle2" style="width: 100%; margin: 0 auto; display: block; z-index: 1; position: static; height: -webkit-fill-available;">
 							</div>
@@ -430,6 +436,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre> -->
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+			  AOS.init();
+			</script>
 
 	</body>
 </html>
